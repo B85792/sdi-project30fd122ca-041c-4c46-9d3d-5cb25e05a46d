@@ -14,8 +14,8 @@ var numberOfRooms = 5;
 // My Procedure
 var myName = true;
 
- if ( myName === true) { 
-    console.log("Sam is opening a new pet store in town!");
+ 	if ( myName === true) { 
+   	 console.log("Sam is opening a new pet store in town!");
     } else {
     console.log("Sam will not be opening a new pet store in town!");
 };
@@ -30,8 +30,12 @@ var storeOwner = {
 
 console.log(storeOwner.name + " loves " + storeOwner.interests);
 
-
-
+var storeOwner =true; 
+	if ( storeOwner === true) { 
+    	console.log("Sam will have saltwater fish in his shop!");
+    } else {
+    	console.log("Sam will not have saltwater fish in his shop!");
+};
 
 
 
@@ -44,7 +48,7 @@ var storeName = "Sam's Pet Shop";
 			
 	if (numberOfSaltwaterTanks < numberOfFreshwaterTanks) {
 		console.log("That's not enough tanks of fish!");   		   
-  		} else {
+  	} else {
   		console.log("I will have more than enough fish!");
   };
      
