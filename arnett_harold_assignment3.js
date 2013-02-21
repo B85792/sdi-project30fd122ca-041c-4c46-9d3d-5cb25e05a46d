@@ -157,15 +157,9 @@ var gotMoney = "buySupplies";
  	var buySupplies = "20 bags";
  	console.log("I have just enough money to buy " + buySupplies +  " of " + "pet food");   
  
-   var  a = true,
-		b = false,
-	    c = "will ",
-	    d = "have enough help!";
-
-   var hireHelp = "Sam ";{
-	  var budget = hireHelp +  c  +  d;
-	    console.log(hireHelp +  c   + d);
- };   
+var owner = "Sam ";
+	var job = "needs some extra help!";
+		console.log(owner + job);
 
    var Duration = function(timeAllowance) {
 	   var hoursPerDay = 6,
@@ -188,10 +182,18 @@ var gotMoney = "buySupplies";
 		budget--;
 	
 };
-		console.log(owner + " will be able to hire " + assistant);
+		console.log(owner + " will be able to hire " + assistant + "!");
  
 
+   var  a = true,
+		b = false,
+	    c = "will then ",
+	    d = "have enough help!";
 
+   var hireHelp = "Sam ";{
+	  var budget = hireHelp +  c  +  d;
+	    console.log(hireHelp +  c   + d);
+ };   
 
      
  
