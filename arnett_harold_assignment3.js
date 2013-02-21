@@ -139,7 +139,24 @@ var snakes = [
     } else {
     	console.log("Sam will not have iguanas in his shop!");
 }; 
-   
+
+ var buyPetFood = function(givenCash) {
+	var pricePerBag =25,
+		bagsOfFood;
+	if (givenCash < pricePerBag) {
+	console.log("That's not enough to buy anything!");
+	bagsOfFood = 9; {    
+  
+  } 
+};     
+  bagsOfFood = Math.floor(225 / 25);
+  return bagsOfFood;
+}; 
+    
+var gotMoney = "buySupplies";
+ 	var buySupplies = "20 bags";
+ 	console.log("I have just enough money to buy " + buySupplies +  " of " + "pet food");   
+ 
    var  a = true,
 		b = false,
 	    c = "will ",
