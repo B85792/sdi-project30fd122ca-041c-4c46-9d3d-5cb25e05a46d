@@ -168,14 +168,14 @@ var gotMoney = "buySupplies";
  };   
 
    var Duration = function(timeAllowance) {
-	   var hoursPerDay = 8,
+	   var hoursPerDay = 6,
 		   days;
 	   if (timeAllowance < hoursPerDay) {
 	      console.log("Sam can't get everything done!");
 		   days = 0;    
   
   } 
-      		days = Math.floor(60 / 8);
+      		days = Math.floor(60 / 6);
   			return days;
 }; 
    
