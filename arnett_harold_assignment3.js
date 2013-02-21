@@ -92,9 +92,29 @@ var storeName = "Sam's Pet Shop";
   };
    
 
-   
-   
-   
+   var storeOwner = { 
+    name : "Sam",
+	age : 40,
+	interests: [
+	 		"Snakes & Lizards"
+	] 		
+};
+
+console.log(storeOwner.name + " loves " + storeOwner.interests);
+
+ // Given: (p ∧ q) ∨ r
+    if ((p && q) || r) {
+        console.log("The expression is true");
+    } else {
+        console.log("The expression is false");
+};   
+  
+   var storeOwner =true; 
+	if ( storeOwner === true) { 
+    	console.log("Sam will have snakes and lizards in his shop!");
+    } else {
+    	console.log("Sam will not have snakes and lizards in his shop!");
+};
    
    
    
