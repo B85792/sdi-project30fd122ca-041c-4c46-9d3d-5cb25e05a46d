@@ -9,7 +9,7 @@
 
 var myName = "Sam";
 var storeName = "Sam's Pet Shop";
-var numberOfRooms = 5; 
+var numberOfRooms = 4; 
 
 // My Procedure
 var myName = true;
@@ -135,13 +135,46 @@ var snakes = [
    
   var lizards =true; 
 	if ( lizards === true) { 
-    	console.log("Sam will only have iquaunas in his shop!");
+    	console.log("Sam will only have iguanas in his shop!");
     } else {
-    	console.log("Sam will not have iquaunas in his shop!");
+    	console.log("Sam will not have iguanas in his shop!");
 }; 
    
+   var  a = true,
+		b = false,
+	    c = "will ",
+	    d = "have enough help!";
+
+   var hireHelp = "Sam ";{
+	  var budget = hireHelp +  c  +  d;
+	    console.log(hireHelp +  c   + d);
+ };   
+
+   var Duration = function(timeAllowance) {
+	   var hoursPerDay = 8,
+		   days;
+	   if (timeAllowance < hoursPerDay) {
+	      console.log("Sam can't get everything done!");
+		   days = 0;    
+  
+  } 
+      		days = Math.floor(60 / 8);
+  			return days;
+}; 
    
-   
-   
+   var owner = "Sam";
+	var assistant = "Susie";
+	var budget = 400;
+		
+	   while( budget > 500) {
+		console.log(owner + "will not be able to hire " + assistant);
+		budget--;
+	
+};
+		console.log(owner + " will be able to hire " + assistant);
+ 
+
+
+
      
  
