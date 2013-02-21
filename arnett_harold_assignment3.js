@@ -20,26 +20,65 @@ var myName = true;
     console.log("Sam will not be opening a new pet store in town!");
 };
 
-var storeOwner = {
+
+var storeOwner = { 
     name : "Sam",
 	age : 40,
 	interests: [
 	 		"Saltwater fish"
-	], 		
+	] 		
 };
 
 console.log(storeOwner.name + " loves " + storeOwner.interests);
 
+var p = 6, q = "true", r = 6;
+
+// Given: (p ∧ q) ∨ r
+    if ((p && q) || r) {
+        console.log("The expression is true");
+    } else {
+        console.log("The expression is false");
+};   
+
 var storeOwner =true; 
 	if ( storeOwner === true) { 
-    	console.log("Sam will have saltwater fish in his shop!");
+    	console.log("Sam will have 6 tanks of saltwater fish in his shop!");
     } else {
     	console.log("Sam will not have saltwater fish in his shop!");
 };
+var storeOwner = { 
+    name : "Sam",
+	age : 40,
+	interests: [
+	 		"Freshwater fish"
+	] 		
+};
+
+	console.log(storeOwner.name + " loves " + storeOwner.interests);
 
 
+// Given: (p ∧ q) ∨ r
+    if ((p && q) || r) {
+        console.log("The expression is true");
+    } else {
+        console.log("The expression is false");
+};   
 
 
+var storeOwner = true; 
+	if ( storeOwner === true) { 
+    	console.log("Sam will have 6 tanks of freshwater fish in his shop!");
+    } else {
+    	console.log("Sam will not have freshwater fish in his shop!");
+};
+
+var storeOwner = {
+    name : "Sam",
+	age : 40,
+	interests: [
+	 		"Freshwater fish"
+]
+};
 var storeName = "Sam's Pet Shop";
 	var room1 = "Fish Room";
 	var numberOfTanks = 12;
@@ -49,7 +88,22 @@ var storeName = "Sam's Pet Shop";
 	if (numberOfSaltwaterTanks < numberOfFreshwaterTanks) {
 		console.log("That's not enough tanks of fish!");   		   
   	} else {
-  		console.log("I will have more than enough fish!");
+  		console.log("Sam will have more than enough fish!");
   };
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
      
  
