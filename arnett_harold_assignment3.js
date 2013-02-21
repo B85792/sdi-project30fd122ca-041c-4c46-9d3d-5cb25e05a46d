@@ -174,16 +174,25 @@ var owner = "Sam ";
 }; 
    
    var owner = "Sam";
-	var assistant = "Susie";
+	var assistant = "Susie";	
 	var budget = 400;
 		
-	   while( budget > 500) {
-		console.log(owner + "will not be able to hire " + assistant);
-		budget--;
+	  	 while( budget > 500) {
+			console.log(owner + "will not be able to hire " + assistant);
+				budget--;
 	
 };
-		console.log(owner + " will be able to hire " + assistant + "!");
- 
+				console.log(owner + " will be able to hire " + assistant + "!");
+var assistant = {
+ 	name: "Susie",
+ 	age: 25,
+ 	energyLevel: 10,
+ 	
+ 		feedFish: function(page){},
+ 		feedSnakesAndLizards:function () {}
+ };	
+	
+		console.log(assistant); 
 
    var  a = true,
 		b = false,
@@ -195,5 +204,44 @@ var owner = "Sam ";
 	    console.log(hireHelp +  c   + d);
  };   
 
-     
+
+ var roomNames = [ "fish room", "reptile room", "showroom", "storage room" ],
+ 	 minutesPerRoom = [ 15, 15, 15, 15 ];
+ 	var sweepOneRoom = function() {
+ 		var roomName = roomNames[roomNumber],
+ 			minutesThisRoom = minutesPerRoom[roomNumber];
+ 				console.log( "Susie" + " swept "  + roomName + " for "
+ 				+ minutesThisRoom + " minutes.");
+ for (var minutes = 0; minutes < minutesThisRoom; minutes += 5) {
+ 		var minutesRemain = minutesThisRoom - minutes;
+ 		console.log(minutes + " done, " + minutesRemain + " to go!");
+ 		
+ }
+ console.log("I'm done with the " + roomName + ".");
+ 
+};
+for (var roomNumber =0; roomNumber < roomNames.length; roomNumber++) {
+	sweepOneRoom(); 				
+ 				
+ };				
+ 				
+ 		console.log("Now it's time to start feeding all the animals!");		
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+ 				
+	
+
+
+	
+	
+	
+	   
  
