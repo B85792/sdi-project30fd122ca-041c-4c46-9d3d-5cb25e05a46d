@@ -227,10 +227,50 @@ for (var roomNumber =0; roomNumber < roomNames.length; roomNumber++) {
  				
  		console.log("Now it's time to start feeding all the animals!");		
  				
- 				
- 				
- 				
- 				
+var json = {
+	"customers" : [
+		{
+			"name": "Joe",
+			"bought": "Boa" 
+			},
+		{				
+			"name": "Steve",
+			"bought": "Python"
+			},
+		{
+			"name": "Mike",
+			"bought": "bag of goldfish"
+			}
+		]
+};
+
+var handleData= function (json) {
+	for (var i = 0; i < json.customers.length; i++){
+		var customers = json.customers[i];
+		console.log( customers.name + " bought a " + customers.bought);
+		}; 
+};
+	
+
+handleData(json);
+
+var jsonstring = JSON.stringify(json);
+	
+	console.log(jsonstring);
+
+
+	console.log("Sam is impressed with all the customers he had during the first week, and he's wanting to expand already!");
+
+
+
+
+
+
+
+
+
+
+	
  				
  				
  				
