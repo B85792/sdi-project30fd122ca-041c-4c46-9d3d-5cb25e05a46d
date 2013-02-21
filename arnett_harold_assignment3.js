@@ -133,7 +133,12 @@ var snakes = [
    		console.log( snakes[i] );
    	};
    
-   
+  var lizards =true; 
+	if ( lizards === true) { 
+    	console.log("Sam will only have iquaunas in his shop!");
+    } else {
+    	console.log("Sam will not have iquaunas in his shop!");
+}; 
    
    
    
