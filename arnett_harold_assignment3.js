@@ -100,7 +100,7 @@ var storeName = "Sam's Pet Shop";
 	] 		
 };
 
-console.log(storeOwner.name + " loves " + storeOwner.interests);
+	console.log(storeOwner.name + " loves " + storeOwner.interests);
 
  // Given: (p ∧ q) ∨ r
     if ((p && q) || r) {
@@ -116,9 +116,22 @@ console.log(storeOwner.name + " loves " + storeOwner.interests);
     	console.log("Sam will not have snakes and lizards in his shop!");
 };
    
-   
-   
-   
+var snakes = [
+  		"Python",
+	    "Boa",
+        "Rattlesnake"
+	];  
+ 	console.log( snakes.length + " types of snakes to choose from!");
+
+var snakes = [
+  		"Python",
+	    "Boa",
+        "Rattlesnake"
+	];  
+   	console.log (snakes.length);
+   for (var i=0, j=snakes.length; i < j; i++) {
+   		console.log( snakes[i] );
+   	};
    
    
    
